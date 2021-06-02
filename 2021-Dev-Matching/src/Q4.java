@@ -1,0 +1,16 @@
+
+public class Q4 { //헤비 유저가 소유한 장소
+
+//	SELECT B.ID, B.NAME, B.HOST_ID
+//	FROM PLACES AS B
+//	INNER JOIN
+//	(
+//	SELECT HOST_ID
+//	FROM PLACES
+//	GROUP BY HOST_ID
+//	HAVING COUNT(HOST_ID) > 1
+//	) AS A
+//	ON A.HOST_ID = B.HOST_ID
+//	ORDER BY B.ID ASC
+	
+}
