@@ -8,6 +8,16 @@ public class Application {
 		
 		Q2 q2 = new Q2();
 		int[][] queries ={{2,2,5,4},{2,2,5,4}};//{{2,2,5,4},{3,3,6,6},{5,1,6,3}};//,[3,3,6,6],[5,1,6,3]]
-		System.out.println(q2.solution(6, 6, queries));
+//		System.out.println(q2.solution(6, 6, queries));
+		
+		Q3 q3 = new Q3();
+		String[] input1 = {"john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"};//{"john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"};
+		String[] input2 ={"-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"};//{"-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"};
+		String[] input3 = {"sam", "emily", "jaimie", "edward"};//{"young", "john", "tod", "emily", "mary"};
+		int[] input4 = {2, 3, 5, 4};//{12, 4, 2, 5, 10};
+				
+		
+					
+		System.out.println(q3.solution(input1,input2, input3,input4));
 	}
 }
