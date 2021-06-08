@@ -13,8 +13,8 @@ public class Application {
 		Q3 q3 = new Q3();
 		String[] input1 = {"john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"};//{"john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"};
 		String[] input2 ={"-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"};//{"-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"};
-		String[] input3 = {"sam", "emily", "jaimie", "edward"};//{"young", "john", "tod", "emily", "mary"};
-		int[] input4 = {2, 3, 5, 4};//{12, 4, 2, 5, 10};
+		String[] input3 = {"sam", "sam", "emily", "jaimie", "edward"};//{"young", "john", "tod", "emily", "mary"};
+		int[] input4 = {2, 3 ,3, 5, 4};//{12, 4, 2, 5, 10};
 				
 		
 					
